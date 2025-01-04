@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/wallpaperhp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|center_horizontal"
+            android:layout_marginTop="85sp"
+            android:text="Hello fanntt!!"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnClickHere"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"
+            android:backgroundTint="#4F4C4A"
+            android:text="Click Here!"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnMenuPage2"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="Menu Page 2"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnLoginPage"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="Log In"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnListView"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="List View"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnRecycleBuah"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="Recycle Buah"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnRecycle"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="Recycle View"
+            app:cornerRadius="15sp" />
+
+        <Button
+            android:id="@+id/btnMovie"
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="#4F4C4A"
+            android:text="Recycle Movie"
+            android:textColorLink="#FFFFFF"
+            app:cornerRadius="15sp" />
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
